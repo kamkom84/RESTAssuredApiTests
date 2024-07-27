@@ -13,7 +13,6 @@ public class DELETE {
         then().
                 statusCode(204);
 
-
     }
 
 }
