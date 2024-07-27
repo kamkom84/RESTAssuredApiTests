@@ -3,12 +3,11 @@ package tests;
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.given;
 
 public class PUT {
 
-    @Test(priority = 2)
+    @Test
     public void put() {
 
         JSONObject request = new JSONObject();

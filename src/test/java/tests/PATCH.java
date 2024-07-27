@@ -8,8 +8,8 @@ import static io.restassured.RestAssured.given;
 
 public class PATCH {
 
-    @Test(priority = 2)
-    public void put() {
+    @Test
+    public void patch() {
 
         JSONObject request = new JSONObject();
 

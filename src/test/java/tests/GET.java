@@ -11,8 +11,8 @@ import static org.hamcrest.Matchers.*;
 
 public class GET {
 
-    @Test(priority = 1)
-    void test1_GET() {
+    @Test
+    void get1() {
 
         Response response = get("https://reqres.in/api/users?page=2");
 
@@ -28,8 +28,8 @@ public class GET {
 
     }
 
-    @Test(priority = 2)
-    void test2_GET() {
+    @Test
+    void get2() {
 
         given().
                 get("https://reqres.in/api/users?page=2")
@@ -39,6 +39,5 @@ public class GET {
                 .body("data.first_name", hasItems("Michael", "Lindsay"));
 
     }
-
 
 }
