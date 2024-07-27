@@ -31,8 +31,3 @@ jobs:
 
       - name: Run api tests
         run: mvn clean test
-
-      - name: Package the application
-        run: mvn -B package --file pom.xml
-
-
