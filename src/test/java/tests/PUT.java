@@ -13,7 +13,7 @@ public class PUT {
         JSONObject request = new JSONObject();
 
         request.put("name", "Popeye");
-        request.put("job", "The Sailorman");
+        request.put("job", "sailor");
 
         System.out.println(request.toJSONString());
 
